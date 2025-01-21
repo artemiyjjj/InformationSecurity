@@ -134,7 +134,7 @@ try:
         case "help":
             help()
         case _:
-            print("Unsopported 'mode' parameter provided")
+            print("Unsupported 'mode' parameter provided")
             help()
 except IndexError:
     print("Mode parameter is not provided")
